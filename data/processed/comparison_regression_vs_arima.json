@@ -1,0 +1,20 @@
+{
+  "comparison_type": "regression_vs_arima",
+  "station": "Aotizhongxin",
+  "period": "2017",
+  "regression": {
+    "rmse": 15.300042717330447,
+    "mae": 8.21119023080242
+  },
+  "arima": {
+    "rmse": 104.58305468839485,
+    "mae": 78.09512498729069,
+    "order": "(1,0,3)"
+  },
+  "spike_analysis": {
+    "threshold": 323.1999999999998,
+    "regression_spike_rmse": 49.10807627357848,
+    "arima_spike_rmse": 302.8240353876622
+  },
+  "recommendation": "Regression for accuracy, ARIMA for uncertainty intervals"
+}

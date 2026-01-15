@@ -25,7 +25,6 @@ var/
 
 # Data files - uncomment if you want to ignore data files
 # data/raw/
-data/processed/
 
 # Model files - uncomment if you want to ignore model files
 # models/
@@ -42,6 +41,6 @@ ENV/
 *.swo
 
 # data artifacts
-data/processed/
+#data/processed/
 *.pkl
 
